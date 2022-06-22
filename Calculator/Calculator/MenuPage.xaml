@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calculator.MenuPag">
+    <ContentPage.Content>
+        
+        <StackLayout Margin="0,35,10,0">
+            <Image Source="https://www.uth.hn/wp-content/uploads/2019/12/logo-1.png"
+                   HeightRequest="200"
+                   WidthRequest="600"
+                   HorizontalOptions="CenterAndExpand"
+                   Aspect="Fill"/>
+            <Button x:Name="btnApp1" Text="Ejercicio 1.1" Clicked="btnApp1_Clicked"></Button>
+            <Button x:Name="btnApp2" Text="Ejercicio 1.2" Clicked="btnApp2_Clicked"></Button>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
